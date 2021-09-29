@@ -24,3 +24,25 @@ SELECT
     *
 FROM
     todos;
+
+/* 開発課題① */
+create table questions (
+    number int,
+    question varchar(255),
+    A varchar(255),
+    B varchar(255),
+    C varchar(255),
+    D varchar(255)
+);
+
+INSERT INTO
+    questions (number, question, A, B, C, D)
+VALUES
+    (
+        1,
+        'クラスファイルに含まれるものはどれか',
+        'スクリプトコード',
+        '実行コード',
+        'ソースコード',
+        'バイトコード'
+    );
